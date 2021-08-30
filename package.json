@@ -1,0 +1,23 @@
+{
+  "name": "express-api-with-jwt",
+  "version": "1.0.0",
+  "description": "Express js API with JWT.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "node -r dotenv/config . dotenv_config_path=./.dev.env app.js",
+    "start:qa": "node -r dotenv/config . dotenv_config_path=./.qa.env app.js"
+  },
+  "author": "Hardik Sheth",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mysql2": "^2.3.0",
+    "uuid": "^8.3.2"
+  }
+}

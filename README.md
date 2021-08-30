@@ -1,6 +1,6 @@
 <h1>Node.js API with Express : Token Based Authentication & Authorization</h1>
 
-<p>In this tutorial, I  have build a Node.js Express REST API example that supports Token Based Authentication with JWT (<a href="https://www.npmjs.com/package/jsonwebtoken">JSONWebToken</a>).</p>
+<p>In this tutorial, I  have build a Node.js Express REST API example that supports Token Based Authentication with JWT (<a href="https://www.npmjs.com/package/jsonwebtoken" target="_blank">JSONWebToken</a>).</p>
 
 ## Topics covered in this example
 

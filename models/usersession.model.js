@@ -56,7 +56,7 @@ class UserSession {
     }
 
     saveUserSession = async (id, userId) => {
-        const errors = validator.NumberValidator("roleId", userId, true);
+        const errors = validator.NumberValidator("userId", userId, true);
 
         if (errors.length > 0) {
             return {
